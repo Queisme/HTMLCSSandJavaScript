@@ -1,0 +1,29 @@
+• A universal style rule can be used to override the browser’s default styles for
+margin and padding.
+• An element’s total width and height is unaffected by the addition of an
+outline.
+• Elements that can be resized should specify how to handle any content
+overflow.
+• A column-count can specify the number of columns into which text content
+should be divided.
+• A column-gap can specify the gutter width between columns.
+• A column-rule shorthand can specify the width, style, and color of a vertical
+ruled line to appear between columns.
+• A column-span can specify the number of columns to span.
+• The flexbox scheme first requires a flex container element be created by
+specifying a flex value to its display property.
+• Inner elements within a flex container are flex items that will appear on a
+single row by default.
+• A justify-content can align flex items horizontally and an align-items can align
+flex items vertically on the line.
+• The grid layout scheme first requires a grid container element be created by
+specifying a grid value to its display property.
+• The grid layout scheme is a 2-dimensional system, which places grid items in
+columns and rows.
+• The grid-column and grid-row shorthand properties can specify horizontal and
+vertical positioning of grid items.
+• A media query can be used to discover the capabilities of the viewing device
+to apply appropriate style rules.
+• A media query can specify a screen media type to detect PC desktop, tablet,
+and phone screens.• A media query can check for many types of media feature to discover the
+display area’s width and orientation of the device.

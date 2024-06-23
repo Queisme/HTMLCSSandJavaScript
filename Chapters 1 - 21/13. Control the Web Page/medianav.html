@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Media Navigation</title>
+<style>
+
+* { margin : 0 ; padding : 0 ; box-sizing : border-box ; }
+
+ul	{ list-style-type : none ; margin : 0 ; padding : 0 ; background : LightSteelBlue ; width : 150px ; font : 1.25em sans-serif ; }
+
+li a { display : block ; text-align: center ; text-decoration : none ; color : Black ; padding : 10px ;  }
+
+li a.current { background : CornflowerBlue ; }
+
+li a:hover { background : RoyalBlue ; color : White ; }
+
+@media screen and ( min-width:600px ) {
+
+	ul	{ overflow : hidden ; width : 100% ; }
+	li a { float : left ; }
+
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="current" href="#home">Home</a></li>
+  <li><a href="#info">Information</a></li>
+  <li><a href="#extra">Extra</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Hidden Content</title>
+<style>
+
+* { margin : 0 ; padding : 0 ; box-sizing : border-box ; }
+
+body { 	background : Black ; }
+
+div.flex-container	{
+	display : flex ;
+	justify-content : center ; 
+}
+
+p.screen-reader-text { 
+	font : 2em sans-serif ;
+	padding : 1em ;
+	color : Thistle ;
+}
+
+@media screen and ( max-width:600px ) {
+
+	p.screen-reader-text { 
+	position : absolute ; width : 1px ; height : 1px ;
+	left : -10000px ;	
+	overflow : hidden ;  }
+}	
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<img src="orchid.png" alt="Orchid Photo.">
+<p class="screen-reader-text">The orchid is the official national flower of Hong Kong.</p>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

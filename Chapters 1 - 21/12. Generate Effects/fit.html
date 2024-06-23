@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Fit</title>
+<style>
+
+img			{ display : inline-block ; border : 2px solid DarkOrange ; width : 150px ; margin : 5px ; }
+
+img.short	{ height : 80px ; }
+img.tall	{ height : 200px ; }
+
+img.scale-down 	{ object-fit : scale-down ; } 	
+img.none 		{ object-fit : none ; }			
+
+img.fill	{ object-fit : fill ; } 		
+img.contain { object-fit : contain ; } 		
+img.cover	{ object-fit : cover ; } 		
+
+</style>
+</head>
+<body>
+
+<img src="run.png" alt="Run">
+
+<img class="scale-down short" src="run.png" alt="Run">
+
+<img class="none short" src="run.png" alt="Run">
+
+<img class="fill tall" src="run.png" alt="Run">
+
+<img class="contain tall" src="run.png" alt="Run">
+
+<img class="cover tall" src="run.png" alt="Run">
+
+<script>
+
+</script>
+</body>
+</html>

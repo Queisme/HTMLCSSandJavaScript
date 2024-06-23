@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Protocol Link</title>
+<style>
+
+img#chart { visibility:hidden;height:0px;}
+p#links { padding:5px;border:1px solid;float:left;width:200px;}
+
+</style>
+</head>
+<body>
+
+
+
+<p id="links">
+<a href="javascript:toggle( )">Show/Hide Chart</a> <br>
+<a href="mailto:wendy@example.com">Email Wendy</a>
+</p>
+
+<img id="chart" src="protocol-chart.png" alt="Chart">
+
+<script>
+
+function toggle( ) {
+  const chart = document.getElementById( 'chart' )
+  let hid = ( chart.style.visibility !== 'visible' )
+  chart.style.visibility = ( hid ) ? 'visible' : 'hidden'
+  chart.style.height = ( hid ) ? 'auto' : '0px'
+}
+
+</script>
+
+</body>
+
+</html>

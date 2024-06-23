@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Attribute</title>
+
+<style>
+
+ol[ id ]			{ border : 2px solid Red ; }
+li[class="reptile"]	{ background : Red ; }
+li[class~="animal"]	{ background : Blue ; }
+li[ class|="cat" ]	{ background : Green ; }
+li[class*="fi"]		{ background: Yellow ; }
+li[class^="top"]	{ background : Orange ; }
+li[class$="ird"] 	{ background : Purple ; }
+
+</style>
+
+</head>
+
+<body>
+
+<ol id="list">
+<li class="reptile">Alligator</li>
+<li class="domestic animal">Dog</li>
+<li class="animal wild">Tiger</li>
+<li class="cat-family">Lion</li>
+<li class="sea fish">Barracuda</li>
+<li class="topcat">Cartoon</li>
+<li class ="domestic bird">Budgerigar</li>
+</ol>
+
+</body>
+</html> 

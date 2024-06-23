@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Label</title>
+<style>
+label.hilite {background:Red;color:White;}
+</style>
+</head>
+
+<body>
+
+<form method="GET" action="http://localhost/echo.py">
+
+<fieldset>
+<legend>Toolbox</legend>
+<label class="hilite">Hammer
+<input type="checkbox" name="Toolbox" value="Hammer" tabindex="2" checked></label>
+<label>Screwdriver
+<input type="checkbox" name="Toolbox" value="Screwdriver" tabindex="3"></label>
+<label class="hilite">Wrench
+<input type="checkbox" name="Toolbox" value="Wrench" tabindex="4" checked></label>
+<label>Drill
+<input type="checkbox" name="Toolbox" value="Drill" tabindex="5" ></label>
+<label class="hilite">Saw
+<input type="checkbox" name="Toolbox" value="Saw" tabindex="6" checked></label>
+<button type="submit" tabindex="1"><img src="label-tools.png" alt="Tools">Submit</button>
+</fieldset>
+</form>
+
+
+<script>
+
+</script>
+</body>
+
+</html>

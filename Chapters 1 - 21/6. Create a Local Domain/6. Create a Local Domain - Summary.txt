@@ -1,0 +1,30 @@
+•
+The free Abyss Web Server X1 can be installed on your own PC for web
+development.
+• Abyss can be started manually or set to continuously run in the background
+automatically.
+• When Abyss is running it provides a domain named localhost that is an alias
+for the IP address 127.0.0.1.
+• A web server can call upon an interpreter to execute server-side scripts that
+respond to requests from a web browser.
+• The most popular server-side scripting languages include PHP, ASP.NET,
+Ruby, Perl, and Python.
+• When Python is installed you can directly interact with its interpreter
+(python.exe) via the Python Console.
+• Abyss must be configured to know the location of the Python interpreter
+(python.exe) and to recognize that files with the file extension of .py are
+Python scripts.
+• The URL localhost:9999 and user credentials are needed to open the Abyss
+Web Server Console.
+• The CGI/ISAPI interfaces allow data to be transferred between the web
+server and a script interpreter.
+• The Abyss Web Server’s location on your system contains a htdocs folder
+that is recognized by the localhost domain.
+• HTML documents, server-side scripts, and other resource files should be
+placed in the Abyss htdocs folder.
+• Data can be sent to a web server by appending a query string to a requested
+URL.
+• Query strings begin with a ? question mark separator.
+• Query strings contain one or more key=value pairs, with each pair separated
+by an & ampersand character.
+• A Python server-script can echo data sent to it from a browser request withina web server response.

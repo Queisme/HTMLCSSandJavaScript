@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Radius</title>
+<style>
+
+div.outer, div.inner { width : 120px ; height : 120px ; }
+
+div.outer { display : inline-block ; margin : 10px ; border : 5px solid DarkOrange ; background : Bisque ; }
+
+div.inner { display : table-cell ; text-align : center ; vertical-align : middle ; border : 2px dashed Orange ; }
+ 
+div.all { border-radius : 40px ; }
+
+div.ind {	border-radius : 50px 0 50px 0 ; }
+
+div.cir { border-radius : 65px ; }
+
+</style>
+</head>
+<body>
+
+<div class="outer all"><div class="inner">All Rounded Corners</div> </div>  
+<div class="outer ind"><div class="inner">Individual Corners</div> </div>  
+<div class="outer cir"><div class="inner">Circle</div></div> 
+
+<script>
+
+</script>
+</body>
+</html> 

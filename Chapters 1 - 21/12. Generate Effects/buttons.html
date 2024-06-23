@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Buttons</title>
+<style>
+
+.button {
+  display : inline-block ;
+  background :  Orange ; 
+  color : White ;
+  font : 16px sans-serif ;
+  border : none ;
+  padding : 16px 32px ;
+  margin : 5px ;
+  text-align : center ;
+  text-decoration : none ;
+  cursor : pointer ;
+}
+
+.button:link, .button:visited { color : White ; }
+
+.button:hover { background : Coral ; }
+
+.button:active { background : OrangeRed ; }
+
+form { display : inline-block ; }
+
+</style>
+</head>
+<body>
+
+<a href="target.html" class="button">Link Button</a>
+
+<button class="button" onclick="alert(this.innerText + ' Clicked')">Script Button</button>
+
+<form method="GET" action="http://localhost/echo.py">
+<input type="submit" class="button" name="CSS" value="Submit Button">
+</form>
+
+<script>
+
+</script>
+</body>
+</html>

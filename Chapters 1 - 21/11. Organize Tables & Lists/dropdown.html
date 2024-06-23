@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Dropdown</title>
+<style>
+
+* { box-sizing : border-box ; }
+
+h1 { border : 2px dashed DeepPink ; }
+
+div.container { position : relative ; display : inline-block ; }
+
+div.active { padding : 15px ; background : Pink ; }
+
+div.dropdown { position: absolute ; width : 100% ; border : 2px solid Pink ; background : White ; z-index : 1 ; display : none ; }
+
+div.dropdown a { display : block ; padding : 15px ; text-decoration : none ; color : Black ; }
+div.dropdown a:hover { background : DeepPink ; color : White ; }
+
+div.container:hover div.dropdown { display: block ; }
+
+</style>
+</head>
+<body>
+
+<h1>Banner</h1>
+
+<div class="container">
+  <div class="active">Dropdown Menu</div>
+  <div class="dropdown">
+  <a href="#option-1">Option 1</a>
+  <a href="#option-2">Option 2</a>
+  <a href="#option-3">Option 3</a>
+  </div>
+</div>
+
+<p>Random text content: Remains below the dropdown menu.</p>
+
+<script>
+
+</script>
+</body>
+</html>

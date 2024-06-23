@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Image Button</title>
+<style>
+
+</style>
+</head>
+
+<body>
+
+<form id="myForm" method="GET" action="http://localhost/echo.py">
+Please Supply Your Email Address: 
+<input id="adr" name = "Address" type = "text" size="45"> <br>
+
+<input type="image" src="ibutton.png" alt="Submit Button" title="Click to submit form">
+<img id="btn" src="ibutton.png" alt="Submit Button" title="Click to submit with JavaScript validation">
+
+</form>
+
+<script>
+
+( function ( ) {
+
+  const btn = document.getElementById( 'btn' )
+  btn.addEventListener( 'click' , function ( ) {
+  
+    const myForm =  document.getElementById( 'myForm' )
+    const pattern = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/
+    let adr = document.getElementById( 'adr' ).value
+  
+    if( ! pattern.test( adr ) ) alert( 'Invalid Email Address' )
+    else myForm.submit( )
+	
+	} )
+  
+} ) ( )
+
+</script>
+</body>
+
+</html>

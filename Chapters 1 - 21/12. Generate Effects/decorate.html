@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Decorate</title>
+<style>
+
+div	{ display : inline-block ; width : 175px ; height : 100px ; margin : 10px ; background : Bisque ; border : 30px solid transparent ; }
+
+div.image { border-image : url( stars.png ) ; }
+div.round{  border-image : url( stars.png ) 33% round ;  }
+div.stretch { border-image : url( stars.png ) 33% stretch ; }
+div.gradient { border-image : repeating-linear-gradient( 45deg, OrangeRed, Orange 20% ) 33% ; }
+
+</style>
+</head>
+<body>
+
+<div class="image"></div>
+<div class="round"></div>
+<div class="stretch"></div>
+<div class="gradient"></div>
+
+<script>
+
+</script>
+</body>
+</html>

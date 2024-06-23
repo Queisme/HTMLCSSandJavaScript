@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Canvas</title>
+<style>
+
+</style>
+</head>
+<body>
+
+<canvas id="canvas" width="500" height="150">[Fallback Text]</canvas>
+
+<script>
+
+( function ( ) {
+
+  const ctx = document.getElementById( 'canvas' ).getContext( '2d' )
+  ctx.lineWidth = 2
+  ctx.font = '5em Fantasy'
+  
+  ctx.fillStyle = 'Bisque'
+  ctx.fillRect( 0, 0, 500, 150 )
+  ctx.strokeStyle = 'Red'
+  ctx.strokeRect( 0, 0, 500, 150 )
+  
+  ctx.fillStyle = 'Orange'
+  ctx.fillText( 'HTML Canvas', 30, 100 )
+  ctx.strokeStyle = 'Black'
+  ctx.strokeText( 'HTML Canvas', 30, 100 )
+ 
+} ) ( )
+
+</script>
+</body>
+</html>

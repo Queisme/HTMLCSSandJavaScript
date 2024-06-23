@@ -1,0 +1,30 @@
+• JavaScript code can be included in an HTML document directly or from an
+external file using <script> </script> tags.
+• JavaScript can display output in an HTML element in an alert dialog box or
+in the browser’s console window.
+• JavaScript statements may contain keywords, operators, values, and
+expressions.
+• The JavaScript interpreter ignores tabs and spaces.
+• JavaScript statements can be grouped in { } curly bracket function blocks that
+can be called to execute when required.
+• Variable and function names may comprise letters, numbers, and underscore
+characters, but must avoid keywords.
+• JavaScript variables may contain data types of String, Number, Boolean,
+Object, Function, Symbol, null, and undefined.
+• Variables declared with the let keyword can be reassigned new values, but the
+const keyword does not allow this.
+• A function expression has statements grouped in { } curly brackets for
+execution, and it returns a final single value.
+• The ( ) parentheses of a function expression may contain parameters for
+argument values to be passed from the caller.
+• A function block can include a return statement to specify data to be passed
+back to the caller.
+• The JavaScript ( ) parentheses operator calls the function.
+• Hoisting allows function calls to appear in the script before the function
+declaration.
+• Anonymous function expressions have no function name.
+• Lexical scope is the environment in which the variable was created and can
+be global, local, or closure.
+• Local variables should be used to store values, but global variables can beassigned functions to create closures.
+• A closure is a function nested within an outer function that retains access to
+variables declared in the outer function.

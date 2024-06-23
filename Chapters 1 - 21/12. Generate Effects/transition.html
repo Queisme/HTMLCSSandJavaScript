@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Transition</title>
+<style>
+
+div { margin : 50px ; padding : 15px ; background : Orange ; color : White ; font : 1.5em sans-serif ; width : 100px ; height : 30px ; }
+
+div.expand { transition : background 5s linear 0.5s, width 5s ease-out 0.5s, height 5s steps(5) 0.5s ; }
+
+div.expand:hover { background : OrangeRed ; width : 350px ; height : 100px ; }
+
+</style>
+
+</head>
+<body>
+
+<div class="expand">Transition</div>
+
+<script>
+
+</script>
+</body>
+</html>

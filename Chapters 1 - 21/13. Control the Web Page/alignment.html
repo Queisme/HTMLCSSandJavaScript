@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Flex Alignment</title>
+<style>
+
+* { margin : 0 ; padding : 0 ; box-sizing : border-box ; }
+
+div.flex-container {
+  display : flex ;
+  flex-flow : row wrap ;
+  border : 2px dashed RoyalBlue ;
+  height : 200px ;
+  justify-content : space-between ;
+  align-items : center ;
+}
+
+div.flex-container > div {
+  padding : 10px 40px ;
+  background : LightSteelBlue ;  
+  border : 2px solid RoyalBlue ;
+  font: 1.25em sans-serif ;
+}
+
+/* Uncomment the rules below to change two flex items' alignment... */
+
+/*
+
+div.flex-container > div:nth-child(2) { align-self : flex-end; } 
+div.flex-container > div:nth-child(3) { align-self : flex-start; } 
+
+*/
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+  <div>Five</div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

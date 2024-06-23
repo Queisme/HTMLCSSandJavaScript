@@ -1,0 +1,26 @@
+• The type of cursor icon to display when the pointer hovers over a selected
+element can be specified using a keyword.
+• A currently-selected interactive component of a page can be indicated by
+specifying a value to the CSS :focus pseudo-class.
+• Interface events caused by user actions are recognized by the CSS :focus,
+:hover, and :active pseudo-classes.
+• The MouseOver and MouseOut states can be used to create rollover effects
+for links, scripting, or form submission buttons.
+• A relatively positioned thumbnail element can reveal a larger element that is
+absolutely positioned directly beneath it.
+• Content box borders can have rounded corners by specifying a radius size to
+the border-radius property.
+• Content boxes and text can have shadows by specifying offset values to the
+box-shadow or text-shadow property.
+• Linear and radial gradients fill content boxes with colors blended between
+specified color stop points.
+• Content box borders can be decorated by stretching or tiling a sliced image
+specified to the border-image property.
+• Transformations manipulate content boxes to change their size, position or
+orientation.
+• Transitions modify property values over a specified period of time to create
+simple animated effects.
+• Animations modify property values over a period of time and nominate
+keyframes to specify values at particular points.
+• Images and videos can be stretched, squeezed, scaled or clipped to fit inside a
+content box.

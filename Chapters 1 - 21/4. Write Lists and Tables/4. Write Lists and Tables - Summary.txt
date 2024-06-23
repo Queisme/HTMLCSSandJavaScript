@@ -1,0 +1,25 @@
+• The HTML <ul> element creates an unordered bullet point list that contains individual list items within <li> elements.
+
+• A list-style-type property can specify that unordered list items should have a disc, circle, or square bullet point, or none.
+
+• A list-style-image property can specify the URL of an image that should appear in place of list item bullet-points.
+
+• The <ol> element creates an ordered numerical list that contains individual list items within <li> elements.
+
+• A list-style-type property can specify how ordered list items should be numbered, such as decimal, upper-latin, or none.
+
+• The <dl> element creates a definition list containing terms in <dt> elements, and their descriptions in <dd> elements.
+
+• The HTML <table> element creates a table, and may optionally first enclose a <caption> element to title the table.
+
+• Each table row is created with a <tr> element to contain numerous <th> heading elements and <td> data elements.
+
+• Table cells can span down other cells using the rowspan attribute, and cells to the right using the colspan attribute.
+
+• Adding <thead> and <tfoot> elements immediately after the <caption> element enhances a table with a header and footer.
+
+• Tables that have a header and footer must also enclose all regular table rows within a <tbody> element.
+
+• Table columns can be grouped using a <colgroup> element for styling.
+
+• Each table column can be represented by a <col> element so it can be individually styled.

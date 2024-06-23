@@ -1,0 +1,30 @@
+• Responsive Web Design (RWD) aims to ensure web pages present content
+well and perform well across all devices.
+• Responsive Web Design uses media queries to determine the size and
+capabilities of the viewing device.
+• Pages optimized for Responsive Web Design must include the <meta>
+viewport tag in the document’s head section.
+• Responsive Web Design requirements can be satisfied using the flexbox
+layout scheme and grid layout scheme.
+• The flexbox layout scheme places items in rows, but the grid layout scheme
+places items in both rows and columns.
+• The optimum solution for Responsive Web Design invariably uses a
+combination of the grid and flexbox layout schemes.
+• It is good practice to design for mobile first, as more web pages are now
+viewed on mobile devices than desktop PCs.
+• A responsive web page can be made to adapt its layout for devices that have
+larger display areas by adding media queries.
+• Media queries can be used to specify different versions of an image for
+devices of different size.
+• Background images can be made to scale down by specifying the contain
+keyword to the background-size property, and the no-repeat keyword to the
+background-repeat property.
+• Images and video can be made to scale up or down by specifying a
+percentage value to their width property and the auto keyword to their height
+property.
+• Content can be hidden and removed from the page flow by specifying the
+none keyword to the display property.
+• The visibility and opacity properties can be used to hide content but they each
+reserve space on the web page.
+• Content can be hidden from view and remain visible to screen readerswithout reserving page space by absolutely positioning the content outside
+the display area.

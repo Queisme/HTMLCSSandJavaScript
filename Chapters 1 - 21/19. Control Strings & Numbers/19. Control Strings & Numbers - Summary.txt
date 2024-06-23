@@ -1,0 +1,29 @@
+• The Math object provides mathematical constants, such as Math.PI, and
+mathematical methods, such as Math.max( )
+• Floating-point numbers can be rounded to the nearest integer using Math.floor(
+), Math.ceil( ), and Math.round( ) methods.
+• JavaScript does not provide automatic rounding to overcome floating-point
+discrepancies.
+• Multiply floating-point values by 100, perform the arithmetic, then divide the
+result by 100 to avoid discrepancy errors.
+• The Math.random( ) method returns a random floating-point number between
+0.0 and 1.0.
+• Multiplying a random floating-point number by 10 and rounding the result
+with Math.ceil( ) makes the range 1-10.
+• The String object provides useful methods to manipulate string values, such as
+toUpperCase( ) and toLowerCase( )
+• Each string has a length property containing an integer that is the total number
+of characters in that string.
+• Strings can be joined together using the + concatenation operator or the string
+concat( ) method.
+• The eval( ) built-in function can have security implications so is best avoided.
+• The slice( ) and substring( ) method arguments specify start and end positions,
+but those of the substr( ) method specify the start position and the number of
+characters to copy.
+• The split( ) method returns an array of all substrings that exist between
+occurrences of the character specified as its argument.
+• The search( ), match( ), indexOf( ), lastIndexOf( ), and charAt( ) methods can be
+used to seek characters within a string.
+• The trim( ) method removes whitespace from both ends of a string.
+• The startsWith( ), endsWith( ), and includes( ) methods seek a case-sensitive
+match within a string.• The replace( ) and repeat( ) methods create modified strings.

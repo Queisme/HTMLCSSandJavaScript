@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Overflow</title>
+<style>
+
+div { display : inline-block ; width : 80px  ; height : 130px ; border : 2px dashed Tomato ; margin-right : 60px ; }
+
+div.vis {overflow : visible ; }
+div.hid { overflow : hidden ; }
+div.scr { overflow : scroll ; }
+
+div.ver { width : 120px ; overflow-x : hidden ; overflow-y : scroll ; }
+div.hor { height : 150px ; overflow-x : scroll ; overflow-y : hidden ; }
+
+div.txt { white-space : nowrap ; overflow : hidden ; text-overflow : ellipsis ; }
+
+</style>
+</head>
+<body>
+
+<div class="vis"><img src="berry.png" alt="Berry"></div>
+<div class="hid"><img src="berry.png" alt="Berry"></div>
+<div class="scr"><img src="berry.png" alt="Berry"></div>
+<div class="ver"><img src="berry.png" alt="Berry"></div>
+<div class="hor"><img src="berry.png" alt="Berry"></div>
+<div class="txt">CSS for Cascading Style Sheets</div>
+
+<script>
+
+</script>
+</body>
+</html> 

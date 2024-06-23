@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Data List</title>
+<style>
+
+</style>
+</head>
+
+<body>
+
+<form method="GET" action="http://localhost/echo.py">
+
+<datalist id="browsers">
+  <option value="Google Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+  <option value="Microsoft Edge">
+</datalist>
+
+<label>Choose your browser from this list:
+<input list="browsers" name="myBrowser" />
+</label>
+
+<p>
+<input type="submit" value="Submit Form">
+</p>
+
+</form>
+
+<script>
+
+</script>
+</body>
+
+</html>

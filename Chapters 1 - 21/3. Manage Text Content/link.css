@@ -1,0 +1,5 @@
+a:hover		{ background:Yellow;}
+a:active	{ background:Red;color:White;	}
+a:visited	{ background:Aqua; 	}
+
+a	{ font-size:20pt; }

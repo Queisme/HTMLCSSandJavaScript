@@ -1,0 +1,26 @@
+• A web browser can quickly draw a fixed layout table by assessing the width
+of the table and its first row of cells.
+• A table caption-side can be specified as top or bottom.
+• A border-spacing can specify the distance between table cell borders as a
+uniform distance or as horizontal and vertical.
+• The empty-cells property can hide any cell that contains absolutely no content.
+• The border-collapse property can combine adjacent borders of a table and its
+cells into a single border.
+• The display property can specify that a selected element should be treated by
+the browser as a table component.
+• A list-style-type can specify the type of marker to be used for list items as
+bullets, numbers or letters.
+• The CSS url( ) function can specify the path to an image for use as a list
+marker.
+• A list-style-position can specify whether markers should appear inside or
+outside the list’s content box.
+• A navigation bar is a list of hyperlinks with particular CSS style rules applied
+to an HTML list element.
+• When a hyperlink is displayed as a block, its entire content box is clickable.
+• Pseudo-classes can be used to indicate the status of hyperlinks.
+• Vertical navigation bars specify a list width, but horizontal navigation bars
+float the list items and hide the overflow.
+• A dropdown box is a content box that is hidden until the user places the cursor
+over an active element.
+• An dropdown’s active element should be relatively positioned so the
+dropdown box can be absolutely positioned beneath it.

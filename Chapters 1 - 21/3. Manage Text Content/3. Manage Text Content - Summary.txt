@@ -1,0 +1,29 @@
+• Paragraph <p> elements can include <br> line break tags, and paragraphs can be separated by <hr> horizontal ruled lines.
+
+• Long quotations may be enclosed within a <blockquote> flow element, and short quotations within a <q> phrasing element.
+
+• The <em> and <strong> phrasing elements are preferred over the <b> and <i> phrasing elements to emphasize text.
+
+• Side comments can be enclosed within a <small> element and the <ins> and <del> elements used to indicate replaced text.
+
+• The <s> element denotes superseded content, and the <mark> element is used to highlight content for reference.
+
+• The <u> element denotes different text, and the <wbr> element can be used to suggest an appropriate break point.
+
+• To avoid misalignment, tab spacing should be avoided when creating preformatted text for inclusion within a <pre> element.
+
+• Superscript and subscript can be included using character entities or using the <sup> and <sub> elements.
+
+• Program code can be included in an HTML document using the <code>, <var>, and <samp> elements.
+
+• Machine-readable code can be specified to a value attribute of the <data> tag and to a datetime attribute of the <time> tag.
+
+• The <abbr>, <cite>, <dfn>, and <kbd> elements provide advice.
+
+• Many elements can include a title attribute to provide tooltips.
+
+• The <bdi> and <bdo> bi-directionals elements can be used to surround items of text written in a language read right-to-left.
+
+• Ruby annotation uses <ruby>, <rb>, <rt>, <rp>, and <rtc> elements to provide pronunciation aid for Eastern languages.
+
+• The <a> tag can create hyperlinks to other web pages, page fragments, or protocols such as javascript: and mailto:.

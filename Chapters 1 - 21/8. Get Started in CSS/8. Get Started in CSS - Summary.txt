@@ -1,0 +1,26 @@
+• CSS is a language provided by the W3C to regain control of markup by
+separating document structure from presentation.
+• The cascade allows style rules to fall from one style sheet to another and
+determines which style rule will be applied.
+• Each style rule comprises a selector and a declaration block.
+• Each declaration specifies a property and a value to be applied to that
+property – separated by a : colon character.
+• A style rule set may contain multiple declarations – each terminated by a ;
+semicolon character.
+• Style rules can be specified in an internal style sheet, inline to an HTML
+element’s style attribute, or in an external style sheet.
+• Type selectors select all elements that match the selector.
+• Class selectors select all elements that contain a class attribute that has been
+assigned a value matching the selector.
+• Identity selectors select all elements that contain an id attribute that has been
+assigned a value matching the selector.
+• Relative selectors are combinators that select elements relative to other
+elements as descendants, children, or siblings.
+• Attribute selectors select elements that have specific attributes or particular
+attribute values.
+• The cascade evaluates the selector’s specificity to rate importance by how
+specifically each one targets the element.
+• Color values can be specified by name, hexadecimal value, Red Green Blue
+value or Hue, Saturation, Lightness value.
+• The background shorthand property can specify an element’s background
+color, image, repeat, position, and attachment.

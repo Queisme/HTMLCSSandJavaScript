@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" >
+<title>Video</title>
+<style>
+* { font:1em sans-serif; }
+video { position:absolute;top:10px;left:10px;width:500px;height:auto; }
+track { position:absolute; top:10px;left:10px;z-index:100; }
+</style>
+</head>
+
+<body>
+
+<video controls>
+<source src="video.mp4" type="video/mp4" >
+<source src="video.webm" type="video/webm" >
+<track src="video.vtt" kind="subtitles" srclang="en" default>
+[ Fallback Message ]
+</video>
+
+<script>
+
+</script>
+
+</body>
+
+</html>

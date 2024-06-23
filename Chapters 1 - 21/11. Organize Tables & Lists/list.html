@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>List</title>
+<style>
+
+li	{ background : Pink ; }
+
+ol,ul { border : 2px solid DeepPink ; }
+
+ol.outside-markers	{ list-style-position : outside ; }
+
+ol.inside-markers	{ list-style-position : inside ; }
+
+ul { list-style : url(star.png) outside square ; }
+
+</style>
+</head>
+<body>
+
+<ol class = "outside-markers"><li>List<li>Markers<li>Outside content box</ol>
+<ol class =  "inside-markers"><li>List<li>Markers<li>Inside content box</ol>
+<ul><li>List<li>Style<ol class =  "inside-markers"><li>List<li>Markers<li>Inside content box</ol><li>Shorthand</ul>
+
+<script>
+
+</script>
+</body>
+</html>

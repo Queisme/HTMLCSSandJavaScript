@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Counter</title>
+<style>
+
+h2	{ counter-increment: num 1 ; }
+h3	{ counter-increment: sub 1; text-indent: 10% ; }
+
+h2:before	{ content: counter(num) " "; background: Green ; color : White ; }
+h3:before	{ content: counter(num) "." counter(sub) " "; background: LawnGreen ; }
+
+h3.restart	{ counter-reset: sub 0 ; }
+
+</style>
+</head>
+<body>
+
+<h2>Topic</h2>
+<h3>Section</h3><h3>Section</h3><h3>Section</h3>
+<h2>Topic</h2>
+<h3 class="restart">Section</h3><h3>Section</h3><h3>Section</h3>
+
+<script>
+
+</script>
+</body>
+</html> 

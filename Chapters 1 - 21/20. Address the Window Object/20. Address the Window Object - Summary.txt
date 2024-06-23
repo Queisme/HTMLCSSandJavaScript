@@ -1,0 +1,27 @@
+• The Document Object Model (DOM) is a hierarchical tree representation of
+all components of a web page.
+• The window object is the top level in the DOM hierarchy and has properties
+describing the browser window.
+• The screen object is a child of the window object and has properties describing
+the screen dimensions and color depth.
+• The window object has scrollBy( ) and scrollTo( ) methods and scrollX and scrollY
+properties that specify the scroll position.
+• Dialog messages can be displayed using the window object’s alert( ), confirm( ),
+and prompt( ) methods.
+• A pop-up window can be created using the window object’s open( ) method,
+but may be obstructed by a pop-up blocker.
+• The window object’s setTimeout( ) method creates a timer, which can be
+canceled later using the clearTimeout( ) method.
+• The navigator object is a child of the window object and has properties
+describing the browser and host platform versions.
+• The window object exists in the global namespace so all its child objects need
+not include the window part of the address.
+• Feature detection is used to identify the modern DOM.
+• The navigator.plugins and navigator.mimeTypes properties are arrays that contain
+details of supported features.
+• The location object is a child of the window object and has properties
+describing the address of the loaded document.
+• The history object is a child of the window object that contains an array of
+visited locations in the current session.
+• The history object has back( ), forward( ), and go( ) methods that are used to
+move through pages in the current session.

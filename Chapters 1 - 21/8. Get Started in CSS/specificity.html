@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Specificity</title>
+
+<style>
+
+h2	{ color : Yellow ; }
+
+h2		{ background : Red ; }
+body h2	{ background : Blue ; }
+
+#header		{ background : Green ; }
+h2#header	{ background : Red ; }
+
+h2.head			{ background : Red ; }
+body h2.head	{ background : Green ; }	
+
+</style>
+
+</head>
+<body>
+
+<h2 style="color:White;">Element Style</h2>
+<h2 id="header">Identity Style</h2>
+<h2 class="head">Class Style</h2>
+
+<script>
+
+</script>
+</body>
+</html>

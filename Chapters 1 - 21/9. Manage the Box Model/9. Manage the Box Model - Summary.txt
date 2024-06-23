@@ -1,0 +1,29 @@
+• Content on a web page is displayed within invisible rectangular boxes that
+are either block-level or inline.
+• Block-level content boxes add line breaks before and after the box and have
+optional areas for padding, border, and margin.
+• Inline content boxes do not add line breaks or support rules for width, height,
+top/bottom margin, and padding.
+• Inline-blocks appear inline but unlike regular inline content boxes they do
+support rules for width and height.
+• When assigning any non-zero value to a property, the declaration must
+include a two-letter unit name.
+• A border can be added around a content box by a rule specifying a width, a
+color, and a border style.
+• A padding space can be added around the core content area by a rule
+specifying a padding size.
+• Padding and borders are added outside the core content area that is set by a
+rule specifying an element’s width and height.
+• Transparent margin space can be added around the content, padding, and
+border, by a rule specifying a margin size.
+• Content boxes can be placed on the web page at absolute, relative, or fixed
+positions.
+• The stacking order of overlapping content boxes can be determined by a rule
+specifying a z-index integer value.
+• A content box to be positioned at the side boundary of its containing element
+by a rule specifying a left or right side.
+• Overflowing content is generally visible but can be made invisible by a rule
+specifying a hidden or scroll option.
+• To best achieve a web page layout it is important to include a universal rule
+to override the browser’s default margin size.
+• Padding and borders can be included in an element’s width and height by arule specifying box-sizing as border-box.

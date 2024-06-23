@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Position</title>
+<style>
+
+div	{ width : 250px ; height : 100px ; }
+div,span	{ border : 2px solid Tomato ; }
+
+div.left { position : absolute ; top : 20px ; left : 20px ;  }
+
+div.right	{ position : absolute; top : 80px ; left : 245px ; }
+
+span.offset { position : relative; top : 70px ; left : 25px ; }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="left">
+<span>Normal Flow Element</span>
+</div>
+
+<div class="right">
+<span class="offset">Relatively Positioned Element</span>
+</div>
+
+<script>
+
+</script>
+</body>
+</html> 

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Shadow</title>
+<style>
+
+div.outer, div.inner { width : 120px ; height : 120px ; }
+
+div.outer { display : inline-block ; margin : 20px ; border : 2px solid Black ; background : White ; }
+
+div.inner	{ display : table-cell ; text-align : center ; vertical-align : middle ; font : bold 2em  sans-serif ; }
+
+div.drop  	{ box-shadow : 10px 10px 10px DarkOrange ;  }
+div.drop > div.inner { text-shadow : 2px 2px DarkOrange ; }
+
+div.glow	{ box-shadow : 0 0 10px 10px DarkOrange ; }
+div.glow > div.inner { color : White ; text-shadow : 2px 2px 4px Black ; }
+
+div.inset	{ box-shadow : 10px 10px 30px DarkOrange inset ; }
+div.inset > div.inner { color : Bisque ; text-shadow : -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black ; }
+
+</style>
+</head>
+<body>
+
+<div class="outer drop"><div class="inner">HTML</div></div>  
+<div class="outer glow"><div class="inner">CSS</div></div> 
+<div class="outer inset"><div class="inner">JS</div></div>
+
+<script>
+
+</script>
+</body>
+</html> 

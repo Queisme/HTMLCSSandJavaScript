@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Template</title>
+<style>
+p#hotel { font:2.5em sans-serif;}
+p#clear { font:1.5em sans-serif; width:100px; border:1px solid;background:Orange;}
+</style>
+</head>
+<body>
+
+<p id="hotel" style="cursor:pointer" 
+  onclick="addStar( this )">Hotel Mistrale</p>
+  
+<p id="clear"  style="cursor:pointer" 
+  onclick="removeStars( )">Clear</p>
+
+<template id="star">
+<img src="star.png" alt="Gold Star">
+</template>
+
+<script>
+
+function addStar( hotel ) {
+  const temp = document.getElementById( 'star' )
+  const copy = temp.content.cloneNode( true )
+  hotel.appendChild( copy )
+}
+
+function removeStars( ) {
+  const hotel = document.getElementById( 'hotel' )
+  while ( hotel.childElementCount > 0 ) {
+    hotel.removeChild( hotel.lastChild )
+  } 
+}
+
+</script>
+</body>
+</html>

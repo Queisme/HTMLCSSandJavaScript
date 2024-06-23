@@ -1,0 +1,28 @@
+• The <img> tag places an image on the web page, and should preferably always include src, width, height, and alt attributes.
+
+• The <map> </map> tags enclose <area> elements, to define the areas of an image map, and must include a name attribute.
+
+• The <figure> and <figcaption> tags can be used to embed a captioned reference image within an HTML document.
+
+• A <picture> element can contain several <source> tags to provide a variety of image sizes for different screen widths.
+
+• The <object> </object> tags can be used to embed external resources within an HTML document.
+
+• External resources can be embedded into an inline frame with an <iframe> element that sets the size of a display area.
+
+• External audio resources can be embedded into an HTML document using <audio> </audio> tags, and external video resources can be embedded using
+<video> </video> tags.
+
+• A <video> element can contain a nested <track> element to specify a subtitle file in the WebVTT format.
+
+• The <progress> element can be used to provide a visual indicator of media playback.
+
+• The <template> element can designate a group of elements that can be cloned to dynamically write content.
+
+• A template can include <slot> </slot> elements whose content can differ in each instance of the template.
+
+• The <dialog> </dialog> tags create a modal dialog on a layer above all other page content.
+
+• The <button> </button> tags create a clickable button.
+
+• The <canvas> element can be used to add graphics, animations, and interactive games onto a web page.

@@ -1,0 +1,28 @@
+• Style rules can suggest specific font by name and a generic font-family as serif,
+sans-serif, monospace, cursive, or fantasy.
+• A font-size can be specified using keywords or absolute sizes, but it is
+recommended to use relative sizes for flexibility.
+• A font-weight can be specified as bold or normal.
+• A font-style can be specified as italic or normal.
+• A font-variant can be specified as small-caps or normal.
+• The font shorthand property can be used to specify values for text style,
+variant, weight, size, and font family.
+• The font-size and font-family values are required when using the font shorthand
+property, but the other values are optional.
+• Text can be horizontally aligned within a content box by specifying text-align
+as left, center, right, or justify.
+• Text can be vertically aligned within a content box by specifying vertical-align
+as top, middle, or bottom.
+• The spacing between text can be specified as a unit value to the text-indent,
+word-spacing, and letter-spacing properties.
+• Text can be decorated by specifying text-decoration as underline, overline, or
+line-through.
+• Text can be transformed by specifying text-transform as uppercase, lowercase,
+or capitalize.
+• Multiple spaces in text are normally collapsed into a single space, but can be
+preserved using the white-space property.
+• The default left-to-right direction of text lines can be changed to right-to-left
+using the direction property.
+• CSS pseudo-elements can be included after the style rule selector to enhance
+the content of a selected element.
+• Sections of a web page can be automatically numbered using the CSS counter() function.

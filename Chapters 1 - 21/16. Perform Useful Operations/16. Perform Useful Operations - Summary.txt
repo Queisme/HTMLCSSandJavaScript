@@ -1,0 +1,29 @@
+•
+parseInt( ) and parseFloat( ) can convert strings to numbers, but String( ) and
+toString( ) can convert numbers to strings.
+• The isNaN( ) function tests its argument for a NaN value.
+• Arithmetic operators perform regular arithmetic plus % modulus, ++
+increment, -- decrement, and ** exponentiation.
+• When the ++ increment or – – decrement operator prefix the operand its value
+is changed immediately, but when they are postfixed after the operand the
+expression is evaluated first.
+• The = operator can be combined with an arithmetic operator to perform an
+arithmetical operation then assign its result.
+• The += operator is useful to append to an existing string.
+• Two operands can be compared for === equality, !== inequality, > greater than
+value, or < less than value.
+• The <= and >= combined comparison operators also return true when both
+operands are equal.
+• The logical && AND operator evaluates two operands and returns true when
+both operands are true, but the logical || OR operator returns true when either
+operand is true.
+• The logical ! NOT operator can prefix a single operand to return its inverse
+value.
+• Ternary operator ?: evaluates a condition for true or false then executes one of
+two statements according to the result.
+• JavaScript bitwise operators can manipulate individual bits of a binary
+sequence to perform binary arithmetic.
+• JavaScript operators have different levels of priority to determine the order in
+which a statement gets evaluated.
+• The order of precedence can be forced by grouping an expression within ( )
+parentheses so it will be evaluated first.

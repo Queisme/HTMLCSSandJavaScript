@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Animation</title>
+<style>
+
+div.ball {	position : absolute ; top : 10px ; 
+			width : 120px ; height : 120px ;
+			color : White ; font : 1.5em sans-serif ;  
+			background : Orange ; border-radius : 50% ; }
+
+div.label { display : table-cell ; 
+			width : 120px ; height : 120px ; 
+			text-align : center; vertical-align : middle ; }
+
+@keyframes bounce {
+			from	{ top : 10px ; }
+			50%		{ top : 40px ; }
+			to		{ top : 100px ; background : OrangeRed ; }
+}
+
+div.ball { animation : bounce 2s linear infinite alternate ;}
+
+</style>
+</head>
+<body>
+
+<div class="ball">
+<div class="label">Animation</div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

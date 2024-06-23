@@ -1,0 +1,30 @@
+• The document object has title, URL, domain, lastModified, and referrer properties
+that describe that document.
+• The document object has forms, images, links, styleSheets, and scripts child
+objects that are arrays of document components.
+• The forms array represents <form> tags and has an elements child object that is
+an array of form components.
+• The document object has getElementById( ), getElementsByTagName( ), and
+getElementsByClassName( ) methods that can be used to reference HTML
+elements.
+• The innerHTML and innerText properties of the document object can be used to
+write content into existing elements.
+• The document object has createElement( ), appendChild( ), and setAttribute( )
+methods that can add content to a document.
+• The document object’s cookie property has “key=value” pairs that can store a
+small amount of data on the user’s system.
+• The encodeURI( ), decodeURI( ), toUTCString( ), and split( ) functions are used for
+string manipulation with cookie data.
+• The DOM allows JavaScript to react to events such as load, click, keydown,
+change, and submit in response to user actions.
+• Event-handler functions can be assigned to an object property or specified by
+the addEventListener( ) method.
+• An event object can be passed to an event-handler function and the event can
+be identified by its event.type property.
+• The mousemove event object has x and y properties that contain the current
+window coordinates of the pointer.
+• Radio and checkbox button objects have a checked boolean property, which is
+only true when the button is selected.
+• A selection list object has a selectedIndex property, which contains the index
+number of the currently selected options[ ] array element.• The form submit event has a preventDefault( ) method that can be called to stop
+submission of a form to the web server.

@@ -1,0 +1,31 @@
+• Custom objects are assigned properties as a comma-separated list of
+name:value pairs within { } curly brackets.
+• Object property values can be referenced using dot notation syntax or by
+quoting their name between [ ] square brackets.
+• Object methods are called by appending ( ) parentheses after the object’s
+method name.
+• The JavaScript built-in Array object stores items in individual elements that
+are numbered starting at zero.
+• Values can be assigned to an array as a comma-separated list within [ ] square
+brackets.
+• The value in an array element is referenced by enclosing its index number in [
+] square brackets after the object name.
+• Each Array object has a length property and methods that can be used to
+manipulate the elements in the array.
+• The JavaScript built-in Date object provides separate methods to extract each
+of its date and time components.
+• The JavaScript Date( ) constructor can optionally specify two to seven
+arguments to set values for each of its components.
+• The Date object also provides separate methods to set the value of each of its
+date and time components individually.
+• The JavaScript built-in RegExp object can contain a regular expression pattern
+that describes a string of characters.
+• The RegExp object has test( ) and exec( ) methods that search a specified string
+argument for a match to its pattern.
+• The JavaScript JSON object stores data as a comma-separated list of
+key:value pairs where each key must be a String type.
+• The JSON object has parse( ) and stringify( ) methods that convert between
+JavaScript and JSON object types.
+• The Promise object represents the eventual completion or failure of anasynchronous operation and its resulting value.
+• The then( ) and catch( ) methods can be chained after a Promise object or the
+fetch( ) method to handle results.

@@ -1,0 +1,29 @@
+• The basic conditional test is performed with the if keyword to test a condition
+for a boolean true or false value.
+• An alternative branch to the basic conditional test can be provided by
+extending an if statement with the else keyword.
+• A large number of conditions can be tested for a boolean true or false value
+with a switch statement.
+• In a switch block, each case statement must end with the break keyword to
+exit when a match is found.
+• A switch block may contain a final default statement to execute when no
+match has been found.
+• A for loop must specify an initializer, a condition to be tested for a boolean
+true or false value, and a modifier.
+• A loop modifier must enable the tested condition to become false at some
+point in order to exit the loop.
+• The while loops and for loops evaluate a test condition before any statements
+are executed.
+• A do while loop evaluates a test condition after its statements have been
+executed.
+• The break keyword can be used to exit from a loop when a specified condition
+is encountered.
+• The continue keyword can be used to skip a single iteration of a loop when a
+specified condition is encountered.
+• The try catch structure can be used to handle exception errors that occur in a
+script.
+• Each error object can have a name property and a message property to allow
+the catch block to describe its nature.
+• A string may be passed to the catch block by the throw keyword to identify the
+error.
+• A try catch structure may be followed by a finally block containing statementsto execute after exceptions are handled.
