@@ -1,0 +1,23 @@
+• Heading elements <h1>, <h2>, <h3>, <h4>, <h5>, and <h6> are ranked in order of importance from <h1> down to <h6>.
+
+• Correctly sequenced heading elements implicitly convey the document structure – to create the document outline.
+
+• The <hgroup> element can be used to enclose both a heading and sub-headings – from <h1> down to <h6>.
+
+• Complete headers, including a logo, banner, and headings <h1> to <h6> can be enclosed in a <header> element.
+
+• Groups of hyperlinks providing page or site navigation should be enclosed within a <nav> element.
+
+• A <nav> element is just a wrapper around a menu, typically displayed horizontally in the header or vertically in a sidebar.
+
+• A web page body section framework may comprise <header>, <main>, and <footer> elements.
+
+• Typically, a <footer> element might contain contact details in an <address> element or legal details in a <small> element.
+
+• Each document <section> element will typically begin with a section heading, followed by one or more articles.
+
+• Each document <article> element will typically begin with an article heading, followed by one or more paragraphs.
+
+• Stand-alone information related to an article can be enclosed within an <aside> element nested in an <article> element.
+
+• The <div> and <span> elements are meaningless but are useful for styling purposes.

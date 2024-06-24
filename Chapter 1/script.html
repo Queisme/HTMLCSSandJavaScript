@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Example</title>
+
+    <!--Link tages <link> only appear in the head section of a document but, the head section can contain many <link> tags. Each <link> tag must contain -rel- and -href- attributes. It may also include a -type- attribute-->
+
+    <!--Permitted relationship -rel- values include:
+    alternate
+    author
+    bookmark
+    help
+    icon
+    license
+    next 
+    nofollow
+    noreferrer
+    prev
+    search
+    stylesheet
+    tag
+    shortcuticon
+    -->
+
+
+
+    
+</head>
+<body>
+    <noscript>JavaScript Is Not Enabled!</noscript>
+    <h1 onclick="this.innerText='Mouse Clicked!';this.style.color='Red'">Active Heading</h1>
+
+    <!--Some HTML elements, such as <template> and <slot> exist purely for scripting-->
+
+    <script>
+        document.getElementsByTagName('h1')[0].onmouseover=function(){
+            this.innerText='Mouse Is Over';this.style.color='Blue'
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

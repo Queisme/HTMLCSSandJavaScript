@@ -1,0 +1,29 @@
+• The Web Hypertext Application Technology Working Group (WHATWG) oversees the HTML Living Standard.
+
+• HyperText Transfer Protocol (HTTP) is the common communication standard used by web servers.
+
+• A Uniform Resource Locator (URL) is an absolute web address comprising protocol, domain, and path components.
+
+• A relative address can reference an adjacent file by its name, and may use the ../ syntax to reference a parent directory.
+
+• Web servers send response headers back to the requesting computer and a copy of the requested file, or an error code.
+
+• Each HTML document should have a document type declaration, a head section, and a body section.
+
+• Information about the document itself is contained in the head section, and content is contained in the body section.
+
+• The document’s written language is specified to a lang attribute in the opening <html> root element.
+
+• The document’s character-set encoding is specified to a charset attribute in a <meta> tag within the head section.
+
+• The document’s title is specified between <title> </title> tags within the head section.
+
+• The free online W3C validator tool can be used to verify that an HTML document is free of errors.
+
+• Metadata describes the document, and a content description can be used by search engines to index the web page.
+
+• The <style> </style> tags can be used to embed style sheets within an HTML document.
+
+• The <script> </script> tags can be used to include internal and external JavaScript code in an HTML document.
+
+• The <link> tag can be used to embed external style sheets and other resourceswithin an HTML document.
