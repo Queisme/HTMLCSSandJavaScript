@@ -1,0 +1,11 @@
+img#chart {
+    visibility: hidden; 
+    height:0px;
+}
+
+p#links {
+    padding:5px;
+    border:1px solid; 
+    float:left; 
+    width:200px
+}
