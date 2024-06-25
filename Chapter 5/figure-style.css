@@ -1,0 +1,18 @@
+figure#front-stack{
+    float:left;
+    margin-top:0px;
+}
+
+figure#back-stack{
+    float:right;
+    margin-top:0px;
+}
+
+.reference{
+    color:Red;
+    font-weight:Bold;
+}
+
+p:first-letter{
+    font-size: xx-large;
+}
