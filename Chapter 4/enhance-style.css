@@ -1,0 +1,21 @@
+table{
+    width:500px;
+    border:5px solid Black;
+}
+
+td,th{
+    border:1px solid Black;
+}
+
+thead{
+    background: Pink;
+}
+
+th.next{
+    background: DeepPink;
+    color:White;
+}
+
+tfoot{
+    background: HotPink;
+}

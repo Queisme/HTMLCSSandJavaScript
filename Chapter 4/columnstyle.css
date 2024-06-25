@@ -1,0 +1,34 @@
+table{
+    width:500px;
+    border-collapse: collapse;
+}
+
+tbody th{
+    background: DeepPink;
+    color:White;
+}
+
+tbody td{
+    padding:3px;
+    text-align: center;
+}
+
+tfoot{
+    font-size: small;
+}
+
+colgroup.sidebar col{
+    width:70px;
+}
+
+colgroup.info col{
+    width:80px;
+}
+
+colgroup.info{
+    border-left: 2px solid white;
+}
+
+colgroup col.stripe{
+    background: Pink;
+}

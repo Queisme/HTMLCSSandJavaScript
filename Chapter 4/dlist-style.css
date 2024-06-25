@@ -1,0 +1,16 @@
+dt {
+    color:Blue;
+}
+
+dfn {
+    color:Red;
+    font-size: 20pt;
+}
+
+dd.grammar {
+    color:Green;
+}
+
+dd.spoken {
+    color:Purple;
+}
