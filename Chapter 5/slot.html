@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Insert Slots</title>
+    <style>
+        * { font:1em sans-serif; }
+    </style>
+</head>
+<body>
+
+    <!--The -slot- attribute can only apear i these HTML tags:
+        -article-
+        -aside-
+        -blockquote-
+        -body-
+        -div-
+        -footer-
+        -h1-6-
+        -header-
+        -main-
+        -nav-
+        -p-
+        -section-
+        -span-
+        -->
+    <div class="homonym">
+        <span slot="word">Air</span>
+        <span slot="def-1">A lilting tune</span>
+        <span slot="def-2">What we breathe</span>
+    </div>
+
+    <div class="homonym">
+        <span slot="word">Current</span>
+        <span slot="def-1">A flow of water</span>
+        <span slot="def-2">Up to date</span>
+    </div>
+
+    <template id="list-template">
+        <dl>
+            <dt><slot name="word">Term</slot></dt>
+            <dd><slot name="def-1">1st Definition</slot></dd>
+            <dd><slot name="def-2">2nd Definition</slot></dd>
+        </dl>
+        <style>
+            dl {
+                width:250px;
+                border:1px solid;
+            }
+
+            dt {
+                background: Orange;
+                color:white;
+            }
+        </style>
+                <!--Style sheets must be included in the template or its rules will not be applied to the template's elements-->
+    </template>
+
+    <script src="slot.js"></script>
+</body>
+</html>

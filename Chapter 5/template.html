@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="template.css">
     <title>Templates</title>
     <style></style>
 </head>
 <body>
     <p id="hotel" style="cursor:pointer" onclick="addStar(this)">Hotel Mistrale</p>
 
-    <p id="clear" style="cursor:pointer" onclick="removeStars()">Clear</p>
+    <p id="clear" style="cursor:pointer" onclick="removeStars( )">Clear</p>
 
+    <template id="star">
     <img src="star.png" alt="Gold Star">
-    
+    </template>
 
     <script src="template.js"></script>
 </body>

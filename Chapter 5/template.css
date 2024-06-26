@@ -1,0 +1,10 @@
+p#hotel { 
+    font:2.5em sans-serif;
+}
+
+p#clear { 
+    font:1.5em sans-serif; 
+    width:100px; 
+    border:1px solid;
+    background:Orange;
+}
