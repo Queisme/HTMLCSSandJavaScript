@@ -1,32 +1,29 @@
-• HTML forms submit data to the web server as key=value pairs for processing
-by a specified server-side script.
-• All form component elements are enclosed between <form> </form> tags,
-which must include an action attribute, to specify the URL of the processing
-script, and a method attribute to specify the submission method as GET or
-POST.
-• Each <input> tag’s type attribute specifies its component type, such as “text”,
-“password”, “checkbox”, “radio”, etc.
-• An <input> tag can include name and value attributes to specify data for
-submission as a key=value pair.
-• An <input> tag can enforce its completion by including the required keyword,
-but many automatically prohibit submission if the user enters a value that is
-not permitted.
-• A multi-line text field is created by <textarea> </textarea> tags that require rows
-and cols attributes to specify its size.
-• Radio button and checkbox inputs only submit their name and value attribute
-data if they are checked.
-• Forms can contain “hidden” elements that allow static or script-generated
-data to be submitted to the server for processing.
-• When a form is to upload files, the <form> tag must include an enctype
-attribute specifying encoding as “multipart/form-data”.
-• A form may be submitted by a regular submit <input> element, by an image
-<input> element, or by a <button> element.
-• Logo images can be added to the button face by enclosing an <img> element
-between <button> </button> tags.
-• An option list is created by enclosing a number of <option> elements between
-<select> </select> tags.
-• Option lists can be enclosed between <optgroup> </optgroup> tags that can
-specify an option group name to a label attribute.• An <input> tag can include a list attribute to associate it with the id of a
-<datalist> element to provide pre-defined options.
-• Each form control can be enclosed between <label> </label> tags to visually
-group them with text for styling purposes.
+• HTML forms submit data to the web server as key=value pairs for processing by a specified server-side script.
+
+• All form component elements are enclosed between <form> </form> tags, which must include an action attribute, to specify the URL of the processing script, and a method attribute to specify the submission method as GET or POST.
+
+• Each <input> tag’s type attribute specifies its component type, such as “text”, “password”, “checkbox”, “radio”, etc.
+
+• An <input> tag can include name and value attributes to specify data for submission as a key=value pair.
+
+• An <input> tag can enforce its completion by including the required keyword, but many automatically prohibit submission if the user enters a value that is not permitted.
+
+• A multi-line text field is created by <textarea> </textarea> tags that require rows and cols attributes to specify its size.
+
+• Radio button and checkbox inputs only submit their name and value attribute data if they are checked.
+
+• Forms can contain “hidden” elements that allow static or script-generated data to be submitted to the server for processing.
+
+• When a form is to upload files, the <form> tag must include an enctype attribute specifying encoding as “multipart/form-data”.
+
+• A form may be submitted by a regular submit <input> element, by an image <input> element, or by a <button> element.
+
+• Logo images can be added to the button face by enclosing an <img> element between <button> </button> tags.
+
+• An option list is created by enclosing a number of <option> elements between <select> </select> tags.
+
+• Option lists can be enclosed between <optgroup> </optgroup> tags that can specify an option group name to a label attribute.
+
+• An <input> tag can include a list attribute to associate it with the id of a <datalist> element to provide pre-defined options.
+
+• Each form control can be enclosed between <label> </label> tags to visually group them with text for styling purposes.
